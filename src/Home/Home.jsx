@@ -1,9 +1,16 @@
+import About from "./About";
+import Banner from "./Banner";
+import Slider from "./Slider";
+import Team from "./Team";
 
 
 const Home = () => {
     return (
         <div>
-           <h2>home page is comming soon</h2> 
+           <Banner></Banner>
+           <Slider></Slider>
+           <About></About>
+           <Team></Team>
         </div>
     );
 };
