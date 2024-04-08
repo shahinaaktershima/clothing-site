@@ -1,6 +1,10 @@
+
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../Login/AuthProvider";
+
+
+
 
 
 const Navbar = () => {
@@ -10,14 +14,27 @@ const Navbar = () => {
     .then()
     .catch()
   }
-  const navlinks =<>
-  <li><Link to='/'>Home</Link></li>
-  <li><Link to='/category'>Category</Link></li>
-  <li><Link>Select Divison</Link></li> 
-  </>
+    const navlinks=<>
+         <li>
+          <Link className="hover:bg-sky-300 text-2xl font-bold text-white font-sans" to='/' >Home</Link>
+         </li>
+        <li>
+         <Link className="hover:bg-sky-300 text-2xl font-bold text-white font-sans" to='/category'>Category</Link>
+        </li>
+        <li>
+         <Link className="hover:bg-sky-300 text-2xl font-bold text-white font-sans" to='/select_division'>Select Division</Link>
+        </li>
+        <li>
+         <Link className="hover:bg-sky-300 text-2xl font-bold text-white font-sans" to='/guideline'>Guideline</Link>
+        </li>
+        <li>
+         <Link className="hover:bg-sky-300 text-2xl font-bold text-white font-sans" to='/login'>Login</Link>
+        </li>
+    </>
+
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-blue-300 ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,6 +46,7 @@ const Navbar = () => {
        }
       </ul>
     </div>
+
     <a className="btn btn-ghost text-xl">Agro firm</a>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -60,8 +78,13 @@ const Navbar = () => {
   </div>:  <NavLink to='/login' className='btn'>Join us</NavLink>
   }
       </div>
+
+   
+  </div>
+
+
 </div>
-        </div>
+        
     );
 };
 

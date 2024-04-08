@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Main from './Main/Main';
 import Home from './Home/Home';
+
 import Login from './Login/Login';
 import Register from './Login/Register';
 import AuthProvider from './Login/AuthProvider';
@@ -15,6 +16,10 @@ import AddedProduct from './AddProduct/AddedProduct';
 import Details from './AddProduct/Details';
 import Usersetup from './Login/Usersetup';
 import Dashboard from './dashboard/Dashboard';
+
+import Category from './Category/Category';
+import Guide from './Guide/Guide';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +28,7 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>
+
       },
       {
         path:'/login',
@@ -33,6 +39,16 @@ const router = createBrowserRouter([
       },
       
       
+
+      {
+        path:'/category',
+        element:<Category></Category>
+      },
+      {
+        path:'/guideline',
+        element:<Guide></Guide>
+      }
+
     ]
   },
   {
@@ -40,7 +56,7 @@ const router = createBrowserRouter([
     element:<Dashboard></Dashboard>,
     children:[
       {
-        path:'/dashboard/addproducts',
+        path:'/dashboard',
         element:<AddProduct></AddProduct>
       },
       
@@ -52,10 +68,7 @@ const router = createBrowserRouter([
       
     },
    
-    {
-      path:'/dashboard',
-      element:<AddedProduct></AddedProduct>
-    },
+   
     {
       path:'/dashboard/details/:id',
       element:<Details></Details>,
