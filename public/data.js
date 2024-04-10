@@ -4,7 +4,7 @@
           "id": 1,
           "title": "Basics of Cattle Nutrition",
           "name": "Nutritional Management",
-          "videoLink": "https://www.youtube.com/watch?v=zo1pthxYRaw"
+          "videoLink": "https://www.youtube.com/embed/s04CwCvPV8k?si=MkGa1ecGkGDqoX3M"
         },
         {
           "id": 2,

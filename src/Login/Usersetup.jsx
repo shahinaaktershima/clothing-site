@@ -91,11 +91,7 @@ const handleMakeAdmin=user=>{
        <FaUser></FaUser>
            </button>}
          </td>
-         {/* <td className="text-purple-400 font-bold">
-        {user.role==='doctor'?'Doctor': <button onClick={()=>handleMakeAdmin(user)} className="btn btn-ghost btn-xs  bg-orange-400 text-white text-xl flex items-center">
-       <FaUser></FaUser>
-           </button>}
-         </td> */}
+       
          <td> <button  onClick={()=>handleDeleteUser(user)} className="btn bg-orange-400 text-white text-xl flex items-center  btn-ghost btn-xs">
        <MdOutlineDeleteOutline></MdOutlineDeleteOutline>
            </button></td>

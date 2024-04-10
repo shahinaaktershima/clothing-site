@@ -9,11 +9,36 @@ const AddedProduct = () => {
         .then(res=>res.json())
         .then(data=>setProduct(data))
     },[])
+    const breakfast=product.filter(item=>item.name==='Cow')
+    const lunch=product.filter(item=>item.name==='goat')
+    const dinner=product.filter(item=>item.name==='duck')
+    const handleSubmit=(e)=>{
+      e.preventDefault();
+      const name=e.target.text.value;
+      if(name==='cow'){
+          setProduct(breakfast);
+      }
+      if(name==='Goat'){
+          setProduct(lunch);
+      }
+      if(name==='Duck'){
+          setProduct(dinner)
+      }
+         
+  }
     return (
-        <div className="grid grid-cols-4">
+        <div>
+          <div className="flex items-center">
+          <form className="flex my-2" onSubmit={handleSubmit}>
+      <input name="text" type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+      <button  className="btn btn-primary -ml-4">Search</button>
+      </form>
+
+          </div>
+          <div className="grid grid-cols-3 gap-5">
             {
-                product.map(products=><div key={products._id} className="card card-compact  bg-base-100 shadow-xl">
-                <figure><img src={products.image} alt="Shoes" /></figure>
+                product.map(products=><div key={products._id} className="card card-compact h-[450px] bg-base-100 shadow-xl">
+                <figure><img className="w-full h-[250px] " src={products.image} alt="Shoes" /></figure>
                 <div className="card-body">
                   <h2 className="card-title">Title:{products.title}</h2>
                   <p className="font-bold">Category: {products.category}</p>
@@ -27,6 +52,7 @@ const AddedProduct = () => {
                 </div>
               </div>)
             }
+        </div>
         </div>
     );
 };

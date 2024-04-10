@@ -76,7 +76,7 @@ const AddProduct = () => {
   <option  value={'default'}>select category</option>
   <option value="child">child</option>
         <option value="old">Old</option>
-        <option value="middleage">MiddleAge</option>
+        <option value="middle">Middle</option>
        
         
 </select>

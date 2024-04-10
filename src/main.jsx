@@ -19,6 +19,8 @@ import Dashboard from './dashboard/Dashboard';
 
 import Category from './Category/Category';
 import Guide from './Guide/Guide';
+import ManageProducts from './AddProduct/ManageProducts';
+import Payment from './AddProduct/Payment';
 
 const router = createBrowserRouter([
   {
@@ -56,7 +58,7 @@ const router = createBrowserRouter([
     element:<Dashboard></Dashboard>,
     children:[
       {
-        path:'/dashboard',
+        path:'/dashboard/addproducts',
         element:<AddProduct></AddProduct>
       },
       
@@ -68,11 +70,22 @@ const router = createBrowserRouter([
       
     },
    
-   
+    {
+      path:'/dashboard',
+      element:<AddedProduct></AddedProduct>
+    },
     {
       path:'/dashboard/details/:id',
       element:<Details></Details>,
       loader:({params})=>fetch(`http://localhost:5000/product/${params.id}`)
+    },
+    {
+      path:'/dashboard/manageItem',
+      element:<ManageProducts></ManageProducts>
+    },
+    {
+      path:'/dashboard/success/:id',
+      element:<Payment></Payment>
     }
   
   

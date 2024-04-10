@@ -1,11 +1,8 @@
 import { useContext, useEffect, useState } from "react";
-import useAxios from "./useAxios";
 import { AuthContext } from "./AuthProvider";
+import useAxios from "./useAxios";
 
 
-
-
-//he
 const UseAdmin = () => {
     const [userInfo,setUserInfo] = useState([])
     const {user} = useContext(AuthContext);

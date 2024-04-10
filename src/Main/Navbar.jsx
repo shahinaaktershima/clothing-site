@@ -18,18 +18,11 @@ const Navbar = () => {
          <li>
           <Link className="hover:bg-sky-300 text-2xl font-bold text-white font-sans" to='/' >Home</Link>
          </li>
-        <li>
-         <Link className="hover:bg-sky-300 text-2xl font-bold text-white font-sans" to='/category'>Category</Link>
-        </li>
-        <li>
-         <Link className="hover:bg-sky-300 text-2xl font-bold text-white font-sans" to='/select_division'>Select Division</Link>
-        </li>
+        
         <li>
          <Link className="hover:bg-sky-300 text-2xl font-bold text-white font-sans" to='/guideline'>Guideline</Link>
         </li>
-        <li>
-         <Link className="hover:bg-sky-300 text-2xl font-bold text-white font-sans" to='/login'>Login</Link>
-        </li>
+       
     </>
 
     return (
@@ -60,7 +53,7 @@ const Navbar = () => {
       {
     user?
     <div className="dropdown">
-    <div tabIndex={0} role="button" className="m-1 lg:mr-12">
+    <div tabIndex={0} role="button" className="m-1 lg:mr-14">
       {
         user?.photoURL?<img className="h-[50px] w-[50px] rounded-full" src={user?.photoURL} alt="" />: <div className="avatar">
         <div className="w-12">
@@ -69,7 +62,7 @@ const Navbar = () => {
       </div>
       }
       </div>
-    <ul className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 text-center">
+    <ul className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-44 text-center">
       <li>{user?.displayName}</li>
      <li><Link to='/dashboard'>Dashboard</Link></li>
      
