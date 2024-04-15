@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const AddedProduct = () => {
     const [product,setProduct]=useState([])
     useEffect(()=>{
-        fetch('https://agro-firm-server.vercel.app/product')
+        fetch('http://localhost:5000/product')
         .then(res=>res.json())
         .then(data=>setProduct(data))
     },[])
@@ -46,8 +46,7 @@ const AddedProduct = () => {
                   <p>Description:{products.description.slice(0,50)}</p>
 
                   <div className="card-actions justify-end">
-                    <Link to={`/dashboard/details/${products._id}`}><button className="btn btn-primary">Details</button></Link>
-                   
+                    <Link to={`/dashboard/details/${products._id}`}><button className="btn btn-primary">Buy now</button></Link>
                   </div>
                 </div>
               </div>)
