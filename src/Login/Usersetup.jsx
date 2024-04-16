@@ -51,7 +51,7 @@ const handleMakeAdmin=user=>{
             Swal.fire({
                 position: "top-end",
                 icon: "success",
-                title: `${user.name} is an admin now!`,
+                title: `${user.name} is a seller now!`,
                 showConfirmButton: false,
                 timer: 1500
               });

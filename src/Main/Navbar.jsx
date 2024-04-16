@@ -40,7 +40,7 @@ const Navbar = () => {
       </ul>
     </div>
 
-    <a className="btn btn-ghost text-xl">Agro firm</a>
+    <a className="btn btn-ghost text-xl">Agro farm</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -55,11 +55,11 @@ const Navbar = () => {
     <div className="dropdown">
     <div tabIndex={0} role="button" className="m-1 lg:mr-14">
       {
-        user?.photoURL?<img className="h-[50px] w-[50px] rounded-full" src={user?.photoURL} alt="" />: <div className="avatar">
+        user&&
         <div className="w-12">
           <img className="h-[50px] w-[50px] rounded-full" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
         </div>
-      </div>
+      
       }
       </div>
     <ul className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-44 text-center">
