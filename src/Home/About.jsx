@@ -7,10 +7,11 @@ const About = () => {
           <div className="hero  ">
            
         <div className="hero-content flex-col lg:flex-row">
-          <img src="cow.avif" className="h-[400px] w-[510px] rounded-3xl" />
+          <img src="https://i.postimg.cc/9Xt8QJbh/image.png" className="h-[400px] w-[510px] rounded-3xl" />
           <div>
            
-            <p className=" text-2xl font-sans text-justify p-4 text-neutral-950 ">Welcome to Our Agro Farm, where nature meets innovation to create a sustainable future.Our farm specializes in a variety livestock, including cows, goats, sheep.At Our Agro Farm, we're committed to innovation and continuously improving our methods to increase efficiency and sustainability. Our team of experienced farmers and agricultural experts is dedicated to ensuring the highest standards of quality and care from seed to table.We invite you to join us on this journey towards a more sustainable and healthy world.  </p>
+            <p className=" text-2xl font-sans text-justify p-4 text-neutral-950 ">
+At Our boutique shop, we curate exclusive, high-quality products that reflect individuality and style. Our handpicked collections offer unique, limited-edition pieces you won’t find in mainstream stores. We’re passionate about craftsmanship and creativity, ensuring each item is both special and timeless. Our goal is to bring you products that resonate with your personal taste while delivering an exceptional shopping experience. Thank you for choosing our shop to be part of your style journey!  </p>
             
             
           </div>

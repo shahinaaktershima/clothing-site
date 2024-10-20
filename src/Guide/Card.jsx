@@ -6,7 +6,7 @@ const Card = ({data}) => {
         <div >
             <div className="card card-compact h-[400px] bg-base-100 shadow-xl">
    
-    <figure><iframe className="w-full h-[300px]" src="https://www.youtube.com/embed/s04CwCvPV8k?si=MkGa1ecGkGDqoX3M" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe></figure>
+    <figure><iframe width="560" height="315" src="https://www.youtube.com/embed/XPcajfG8zYY?si=gBXF-vC6hFO7yvYG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></figure>
   <div className="card-body">
     <h2 className="card-title">{title}</h2>
     <p>{name}</p>
