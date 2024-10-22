@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const AddedProduct = () => {
     const [product,setProduct]=useState([])
     useEffect(()=>{
-        fetch('https://agro-firm-server.vercel.app/product')
+        fetch('http://localhost:5000/product')
         .then(res=>res.json())
         .then(data=>setProduct(data))
     },[])

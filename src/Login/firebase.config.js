@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB1wi43sGTldXvQohu1k1ourylAMHu8Tm8",
-  authDomain: "agro-firm-3ca2b.firebaseapp.com",
-  projectId: "agro-firm-3ca2b",
-  storageBucket: "agro-firm-3ca2b.appspot.com",
-  messagingSenderId: "115609634540",
-  appId: "1:115609634540:web:41ad52e347fef96efd07c9"
+  apiKey: "AIzaSyC8_tqRAVYxiGrEemCpxvEaKmrWpJ0asWw",
+  authDomain: "cloth-abb05.firebaseapp.com",
+  projectId: "cloth-abb05",
+  storageBucket: "cloth-abb05.appspot.com",
+  messagingSenderId: "894491910169",
+  appId: "1:894491910169:web:f15824d95e450aca5eca88"
 };
 
 // Initialize Firebase

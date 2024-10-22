@@ -20,7 +20,7 @@ const AddProduct = () => {
         form.reset('')
         const Product={name,title,category,price,description,date,amount,image}
        console.log(Product);
-        fetch('https://agro-firm-server.vercel.app/product',{
+        fetch('http://localhost:5000/product',{
             method:'POST',
             headers:{
                 'content-type':'application/json'
