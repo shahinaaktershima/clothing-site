@@ -4,7 +4,6 @@ import useAxios from "../Login/useAxios"
 
 const Details = () => {
     const product=useLoaderData();
-   
     const axios=useAxios()
     console.log(product);
     const {name,title,category,price,description,date,amount,image}=product
