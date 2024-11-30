@@ -12,7 +12,7 @@ const Guide = () => {
     return (
         <div>
             
-            <div className="grid grid-cols-4 gap-12 m-5">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-12 m-5">
                 {
                     datas.map((data,index)=><Card data={data} key={index}></Card>)
                 }
