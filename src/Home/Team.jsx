@@ -36,7 +36,7 @@ const Team = () => {
             </div>
 
             <div className="card card-compact  bg-base-100 shadow-xl">
-            <figure><img className="h-[200px] w-full" src="" alt="" /></figure>
+            <figure><img className="h-[200px] w-full" src="https://i.postimg.cc/cHMH5gZ9/e6b54b44-b94f-45ad-a772-9a33d9f04cb5.jpg" alt="" /></figure>
             <div className="card-body">
                 <h2 className="card-title">Atika tabassum</h2>
                 <p>ID</p>
