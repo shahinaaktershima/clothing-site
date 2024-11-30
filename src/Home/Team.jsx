@@ -21,7 +21,7 @@ const Team = () => {
             <figure><img className="h-[200px] w-full" src="" alt="" /></figure>
             <div className="card-body">
                 <h2 className="card-title">Umay pru marma</h2>
-                <p>ID</p>
+                <p>ID:15062202</p>
              
             </div>
             </div>
@@ -30,7 +30,7 @@ const Team = () => {
             <figure><img className="h-[200px] w-full" src="https://i.postimg.cc/0jbC8fbH/Screenshot-2024-11-30-124218.png" alt="" /></figure>
             <div className="card-body">
                 <h2 className="card-title">Saimon jannat</h2>
-                <p></p>
+                <p>ID:15042102</p>
                
             </div>
             </div>
@@ -39,7 +39,7 @@ const Team = () => {
             <figure><img className="h-[200px] w-full" src="https://i.postimg.cc/cHMH5gZ9/e6b54b44-b94f-45ad-a772-9a33d9f04cb5.jpg" alt="" /></figure>
             <div className="card-body">
                 <h2 className="card-title">Atika tabassum</h2>
-                <p>ID</p>
+                <p>ID:15062206</p>
                
             </div>
             </div>
@@ -47,7 +47,7 @@ const Team = () => {
             <figure><img className="h-[200px] w-full" src="" alt="" /></figure>
             <div className="card-body">
                 <h2 className="card-title">Samia lutfi</h2>
-                <p>ID:</p>
+                <p>ID:15062204</p>
               
             </div>
             </div>
