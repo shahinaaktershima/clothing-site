@@ -77,7 +77,7 @@ const router = createBrowserRouter([
     {
       path:'/dashboard/details/:id',
       element:<Details></Details>,
-      loader:({params})=>fetch(`http://localhost:5000/product/${params.id}`)
+      loader:({params})=>fetch(`https://cloth-server-tan.vercel.app/product/${params.id}`)
     },
     {
       path:'/dashboard/manageItem',

@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const axiosPublic=axios.create({
-    baseURL:'http://localhost:5000'
+    // baseURL:'https://cloth-server-tan.vercel.app'
+    baseURL:'https://cloth-server-tan.vercel.app'
 })
 
 const useAxios = () => {
