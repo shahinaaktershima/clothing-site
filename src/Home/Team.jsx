@@ -9,7 +9,7 @@ const Team = () => {
            
             
             <div className="card card-compact  bg-base-100 shadow-xl">
-            <figure><img className="h-[200px] w-full" src="shima.jpg" alt="" /></figure>
+            <figure><img className="h-[200px] w-full" src="https://i.postimg.cc/g2qTjGz9/Screenshot-2024-11-30-124456.png" alt="" /></figure>
             <div className="card-body">
                 <h2 className="card-title">Shahina Akter Shima</h2>
                 <p>15052204</p>
@@ -27,7 +27,7 @@ const Team = () => {
             </div>
 
             <div className="card card-compact  bg-base-100 shadow-xl">
-            <figure><img className="h-[200px] w-full" src="" alt="" /></figure>
+            <figure><img className="h-[200px] w-full" src="https://i.postimg.cc/0jbC8fbH/Screenshot-2024-11-30-124218.png" alt="" /></figure>
             <div className="card-body">
                 <h2 className="card-title">Saimon jannat</h2>
                 <p></p>
