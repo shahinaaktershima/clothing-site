@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-   "build": " build ",
+   "build": "npm run build",
     "start": " start",
     "deploy": "npm run build  && firebase deploy",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
