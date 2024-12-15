@@ -4,7 +4,7 @@ const Team = () => {
     return (
        <div>
         <h2 className="text-center my-10 text-4xl font-bold">Meet Our Team</h2>
-         <div className="grid grid-cols-5 max-w-[1300px] gap-5 mx-auto">
+         <div className="grid grid-cols-1 md:grid-cols-5 max-w-[1300px] gap-5 mx-auto">
             
            
             
@@ -18,7 +18,7 @@ const Team = () => {
             </div>
 
             <div className="card card-compact  bg-base-100 shadow-xl">
-            <figure><img className="h-[200px] w-full" src="" alt="" /></figure>
+            <figure><img className="h-[200px] w-full" src="https://i.postimg.cc/TYwFhwb4/umay.jpg" alt="" /></figure>
             <div className="card-body">
                 <h2 className="card-title">Umay pru marma</h2>
                 <p>ID:15062202</p>
@@ -44,7 +44,7 @@ const Team = () => {
             </div>
             </div>
             <div className="card card-compact  bg-base-100 shadow-xl">
-            <figure><img className="h-[200px] w-full" src="" alt="" /></figure>
+            <figure><img className="h-[200px] w-full" src="https://i.postimg.cc/gJhcCsz3/lutfi.jpg" alt="" /></figure>
             <div className="card-body">
                 <h2 className="card-title">Samia lutfi</h2>
                 <p>ID:15062204</p>
